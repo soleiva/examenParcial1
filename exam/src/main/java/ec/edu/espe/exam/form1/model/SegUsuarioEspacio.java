@@ -9,7 +9,7 @@ import javax.persistence.ManyToOne;
 public class SegUsuarioEspacio {
 
     @EmbeddedId
-    SegUsuarioEspacioPk pk;
+    private SegUsuarioEspacioPk pk;
 
     @Column(name = "ROL", length = 3, nullable = false)
     private String rol;
